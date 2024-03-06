@@ -42,6 +42,7 @@ openSansObserver.load().then(() => {
 });
 
 // Create redux store with history
+// I am testing my first github commit.
 const initialState = {};
 const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
